@@ -211,6 +211,8 @@ button:focus-visible {
 }
 
 .hero-art img {
+  width: 100%;
+  height: auto;
   animation: bob 3.4s ease-in-out infinite;
 }
 
