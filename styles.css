@@ -150,6 +150,28 @@ button:focus-visible {
   opacity: 0.75;
 }
 
+/* ---------- App Store badge ----------
+   Apple's Marketing Guidelines require using their official,
+   unmodified badge artwork with defined clear space around it.
+   Do not recolor, stretch, rotate, or add effects to the badge. */
+.app-store-badge {
+  display: inline-flex;
+  line-height: 0;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.app-store-badge:hover { transform: translateY(-2px); opacity: 0.9; }
+
+.app-store-badge img {
+  height: 53px;
+  width: auto;
+}
+
+.app-store-badge-lg img {
+  height: 60px;
+  width: auto;
+}
+
 /* ---------- Hero ---------- */
 .hero {
   background: var(--sky);
